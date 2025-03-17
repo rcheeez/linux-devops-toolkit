@@ -11,7 +11,7 @@
 ## **🚀 Getting Started**  
 Clone the repository and run the script for your Linux distribution:  
 ```bash
-git clone https://github.com/your-username/linux-devops-toolkit.git
+git clone https://github.com/rcheeez/linux-devops-toolkit.git
 cd linux-devops-toolkit/distro-name
 bash install_tool.sh
 ```
