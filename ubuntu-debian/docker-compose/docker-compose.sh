@@ -16,5 +16,10 @@ run_cmd "Updating package list" sudo apt update
 run_cmd "Installing Docker Compose v2" sudo apt install -y docker-compose-v2
 
 echo "✅ Docker Compose v2 installation completed!"
+echo 'alias docker-compose="docker compose"' >> ~/.bashrc
+source ~/.bashrc
+
+echo "Setting up the docker-compose command from 'docker compose to 'docker-compose'"
+
 echo "🔍 Verifying Docker Compose version..."
 docker-compose version
